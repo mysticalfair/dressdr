@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+}
+
+.title h1 {
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+._1 {
+    background-image: url('imgs/=O.png');
+}
+
+._2 {
+    background-image: url('imgs/=D.png');
+}
+
+._3 {
+    background-image: url('imgs/-_-.png');
+}
+
+._4 {
+    background-image: url('imgs/;).png');
+}
+
+._5 {
+    background-image: url('imgs/us.jpg');
+}
+
+._6 {
+    background-image: url('imgs/you.jpg');
+}
+
+._7 {
+    background-image: url('imgs/goat.jpg');
+}
+
+._8 {
+    background-image: url('imgs/you-the-GOAT.jpg');
+}
+
+._9 {
+    background-image: url('imgs/hearts.jpg');
+}
+
+._10 {
+    background-image: url('imgs/napping.jpg');
+}
+
+._11 {
+    background-image: url('imgs/optical-illusion.jpg');
+}
+
+._12 {
+    background-image: url('imgs/tbt.jpg');
+}
