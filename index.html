@@ -1,0 +1,59 @@
+<html>
+<body>
+<link href="style.css" rel="stylesheet">
+
+
+<svg width="200" and height = "200" id="palette">
+
+<line x1="5" y1="10" x2="70" y2="10"  class="svg-line"/>
+<line x1="5" y1="10" x2="5" y2="165" class="svg-line" />
+<line x1="5" y1="165" x2="70" y2="165" class="svg-line" />
+<line x1="70" y1="10" x2="70" y2="165" class="svg-line" />
+  <circle cx="25" cy="25" r="10"
+  fill="rgb(204,0,0)" class="palette-circle" id="ruby-red"/>
+
+<defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="20%" style="stop-color:rgb(255,153,255);stop-opacity:1" />
+      <stop offset="40%" style="stop-color:rgb(255,0,102);stop-opacity:1" />
+      <stop offset="60%" style="stop-color:rgb(102,0,255);stop-opacity:1" />
+      <stop offset="80%" style="stop-color:rgb(153,255,102);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,153,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="25" r="10"
+  fill="url(#grad1)" id="multicolour" class="palette-circle"/>
+  <circle cx="25" cy="50" r="10"
+  fill="rgb(0,0,0)" id="black" class="palette-circle"/>
+  <circle cx="50" cy="50" r="10"
+  fill="rgb(255,255,255)" id="white" stroke-width=.5 stroke="black" class="palette-circle"/>
+  <circle cx="25" cy="75" r="10"
+  fill="rgb(0,153,255)" id="cornflower-blue" class="palette-circle"/>
+  <circle cx="50" cy="75" r="10"
+  fill="rgb(153,153,255)" id="periwinkle" class="palette-circle"/>
+  <circle cx="25" cy="100" r="10"
+  fill="rgb(255,204,255)" id="baby-pink" class="palette-circle"/>
+  <circle cx="50" cy="100" r="10"
+  fill="rgb(204,0,153)" id="magenta" class="palette-circle"/>
+  <circle cx="25" cy="125" r="10"
+  fill="rgb(204, 0, 255)" id="lavender" class="palette-circle"/>
+  <circle cx="50" cy="125" r="10"
+  fill="rgb(0, 0, 255)" id="sapphire-blue" class="palette-circle"/>
+  <circle cx="25" cy="150" r="10"
+  fill="rgb(255, 204, 153)" id="nude-peach" class="palette-circle"/>
+  <circle cx="50" cy="150" r="10"
+  fill="rgb(0, 153, 0)" id="emerald-green" class="palette-circle"/>
+</svg>
+<img src="SVG/aline.svg" alt="a-line skirt style" width="200" height="200" class="dress">
+<img src="SVG/mermaid.svg" alt="mermaid skirt style" width="200" height="200" class="dress">
+<img src="SVG/asym.svg" alt="asymmetrical skirt style" width="200" height="200" class="dress">
+<img src="SVG/vneck.svg" alt="vneck top style" width="200" height="100" class="dress">
+<img src="SVG/halter.svg" alt="halter top style" width="200" height="100" class="dress">
+<img src="SVG/sweetheart.svg" alt="sweetheart top style" width="200" height="100" class="dress">
+
+<canvas id="dress" width="200" height="500" </canvas>
+
+<script type= "text/javascript" src="script.js"></script>
+</body>
+</html>
